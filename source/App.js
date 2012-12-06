@@ -1,6 +1,7 @@
 enyo.kind({
 	name: "App",
 	fit: true,
+	classes: "someTest anotherTest", 
 	components:[
 		{name: "hello", content: "Hello World", allowHtml: true, ontap: "helloWorldTap"}
 	],
